@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NFXRippleCell.h
 //  NFXRippleCellDemo
 //
 //  Created by Tomoya_Hirano on 2014/07/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface NFXRippleCell : UITableViewCell
 
 @end

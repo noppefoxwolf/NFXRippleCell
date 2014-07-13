@@ -21,6 +21,7 @@
 		D70EF2C61972F6650025D90F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70EF2A81972F6650025D90F /* UIKit.framework */; };
 		D70EF2CE1972F6650025D90F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D70EF2CC1972F6650025D90F /* InfoPlist.strings */; };
 		D70EF2D01972F6650025D90F /* NFXRippleCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D70EF2CF1972F6650025D90F /* NFXRippleCellDemoTests.m */; };
+		D70EF2DB1972F71B0025D90F /* NFXRippleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D70EF2DA1972F71B0025D90F /* NFXRippleCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D70EF2CB1972F6650025D90F /* NFXRippleCellDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NFXRippleCellDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D70EF2CD1972F6650025D90F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D70EF2CF1972F6650025D90F /* NFXRippleCellDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFXRippleCellDemoTests.m; sourceTree = "<group>"; };
+		D70EF2D91972F71B0025D90F /* NFXRippleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFXRippleCell.h; sourceTree = "<group>"; };
+		D70EF2DA1972F71B0025D90F /* NFXRippleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFXRippleCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				D70EF2BA1972F6650025D90F /* ViewController.m */,
 				D70EF2BC1972F6650025D90F /* Images.xcassets */,
 				D70EF2AB1972F6650025D90F /* Supporting Files */,
+				D70EF2D91972F71B0025D90F /* NFXRippleCell.h */,
+				D70EF2DA1972F71B0025D90F /* NFXRippleCell.m */,
 			);
 			path = NFXRippleCellDemo;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				D70EF2BB1972F6650025D90F /* ViewController.m in Sources */,
 				D70EF2B51972F6650025D90F /* AppDelegate.m in Sources */,
+				D70EF2DB1972F71B0025D90F /* NFXRippleCell.m in Sources */,
 				D70EF2B11972F6650025D90F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
